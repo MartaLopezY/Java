@@ -1,0 +1,11 @@
+a) Funciona correctamente
+b) Porque tiene metodos abstractos
+c) No
+d) No, salvo que la hija sea abstracta
+e) No, porque es abstracta
+f) Porque puedo construir el código desde la clase padre con los datos que tengo en el padre
+g) ArrayList <PoligonoRegular> listaPoligonos = new ArrayList <>();
+for (PoligonoRegular p : listaPoligonos)
+       System.out.println(p.area());
+Es correcto porque todas las clases hijas tienen que tener implementado el metodo area que impone el padre
+h) No, porque a nivel poligono regular solo puedo hacer lo que esta definido en esa clase
