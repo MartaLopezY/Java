@@ -1,0 +1,17 @@
+a) /* if (cad.substring(0,2).equals(cad.substring(cad.length()-2,cad.length())))   */
+
+En una cadena compara si los 3 primeros caracteres son iguales a los 3 últimos.
+ 
+b) /*    b=false;
+for (int i=0;i<= cad.length()-2;i++)
+if(cad.charAt(i)==cad.charAt(i+1)) b = true;
+¿Por qué el bucle va hasta length()-2 en vez de hasta length(), o length()-1 ?    */
+
+El programa compara si son iguales un caracter de un string con el siguiente caracter de la cadena.
+  La instrucción length me devuelve el numero de caracteres de la cadena(contando desde 1) pero con charAt miro caracter por caracter desde la posición 0(por eso no puede ir hasta length()-1).
+El bucle no va hasta la última posición porque comparo una posición(i) con la siguiente(i+1),cuando el bucle llega hasta cad.length()-2, compara el penultimo caracter con el ultimo
+
+c) /*    res = nom.toUpperCase().charAt(0) +"." + ape1.toUpperCase().charAt(0)+"." +
+ape2.toUpperCase().charAt(0) +".";       */
+Me crea una cadena nueva cogiendo el primer caracter de otra cadena,pasando ese carater a mayusculas e introduciendo un punto después. Y esto lo hace con otras dos cadenas más.
+
