@@ -1,0 +1,5 @@
+#Fichero de config.
+#Mon Feb 27 13:34:43 CET 2023
+CosteEstablecimientoLlamada=1.2
+CosteMinutoLlamada=0.2
+CosteConsumoDatos=0.3
