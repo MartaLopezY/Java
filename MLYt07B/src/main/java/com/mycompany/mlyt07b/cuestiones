@@ -1,0 +1,28 @@
+a) muestra las potencias de 2 desde 2 elevado a 1 hasta 2 elevado a 10
+
+b) En las posicion 0 y en las posiciones pares, borra los elementos que teniamos y pone en ellas 999
+
+c) ArrayList <Integer> a = new ArrayList <>();  //Crea un array vacio
+int lon=(int) (Math.random()*6)+5;  //Crea una variable long entre 0 y 5 y le suma 5(5-10)
+for (int i=0;i<lon;i++)   //Creo un bucle de las veces que haya generado(entre 5 y 10)
+a.add((int)(Math.random()*100)+1);    //genero un numero aleatorio entre 0 y 100 y lo meto en el array
+Collections.sort(a);       //lo ordena de manera ascendente
+for (int i=0; i<a.size();i++)   
+System.out.println(a.get(i));    //en este bucle lo saca por pantalla
+Un ejemplo de salida puede ser:(5,7,15,23,36,47) otro ejemplo:(74,76,84,88,94,97,99)
+
+d) ArrayList <Integer> a = new ArrayList <>();  //Crea un array vacio
+int n=0;   
+for (int i=0;i<6;i++) {   //Creo un bucle de 6
+do { n = (int)(Math.random()*49)+1;   //genero un numero aleatorio entre 1 y 49 
+} while (a.contains(n));   //los numeros generados no estan duplicados
+a.add(n);    //lo guardo en el arraylist
+}
+Collections.sort(a);   //ordeno el arraylist
+for (int i=0; i<a.size();i++)
+System.out.println(a.get(i));   //los muestro por pantalla
+   Un ejemplo de salida puede ser:(5,7,15,23,36,47) otro ejemplo:(4,7,8,18,34,47)
+
+e) 
+
+f)
