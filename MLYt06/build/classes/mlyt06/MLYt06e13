@@ -1,0 +1,24 @@
+import java.time.*;
+public class ejercicio {
+public static void main(String[] args) {
+
+Contacto contacto1 = new Contacto ("Marta", 6661111222L, LocalDate.parse("2019-11-25"));
+Contacto contacto2 = new Contacto ("Miguel", 1111111L, LocalDate.now());
+Contacto contacto3 = new Contacto ("Ana", 3333333L,"2019-11-20");
+Contacto contacto4 = new Contacto ("Daniel", 444444L);
+}}
+class Contacto {
+public String nombre;
+public long numero;
+public LocalDate fechaAltaAgenda;
+Contacto (String no, long nu,LocalDate fe){
+this.nombre = no;
+this.numero = nu;
+this.fechaAltaAgenda = fe;
+}
+Contacto (String no, long nu,){
+this.nombre = no;
+this.numero = nu;
+
+}
+}

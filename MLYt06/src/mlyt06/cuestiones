@@ -1,0 +1,24 @@
+a) 4
+b) 1
+c) 2
+d) Producto p1 = new Producto("ordenador", 1000, 0.21d);
+   Producto p2 = new Producto("barra de pan", 1d, 0.04d);
+e) 0
+f) double precioFinal; 
+   precioFinal=(p1.precio-p1.precio * p1.descuento)*(1+p1.IVA);
+   System.out.println(precioFinal);
+   precioFinal=(p2.precio-p2.precio * p2.descuento)*(1+p2.IVA);
+   System.out.println(precioFinal);
+g) p1.descuento=0.1d;
+   precioFinal=(p1.precio-p1.precio * p1.descuento)*(1+p1.IVA);
+   System.out.println(precioFinal);
+h) p2.nombre="pan";
+i) A p1.IVA le asigno lo que hay en p2.IVA
+j) A p1.descuento le asigno lo que hay en p2.descuento
+k) A p1 le asigno la referencia de memoria que tiene p2. Los dos apuntan a lo mismo(los dos apuntarían a la barra de pan)
+l) Tendríamos que ir asignando atributo a atributo:
+p1.nombre= p2.nombre;
+p1.precio= p2.precio;
+p1.descuento= p2.descuento;
+m) Lo normal es que devuelva siempre False. Aquí estoy comparando las referencias de memoria no el contenido
+n) 60, porque p4 apunta a la misma dirección que p3 (Lo último que se hace antes de mostrar por pantalla es asignarle 60 al atributo precio al que apunta p3 y, por lo tanto, también p4)
