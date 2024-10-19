@@ -1,0 +1,4 @@
+a) bi2 -> hambre:  10
+   bi2 -> sueño:  /No es correcto porque sueño es de la hija. Deberiamos de hacerle un casting/
+b) bi2 -> sueño: 30  /Si, asi solucionamos el problema/
+c)   bd2 -> sueño : 30  /Creo una variable bd4 del tipo BichoDormilón que apunta a la misma dirección de memoria que bi2. Sí que funcionaría/
