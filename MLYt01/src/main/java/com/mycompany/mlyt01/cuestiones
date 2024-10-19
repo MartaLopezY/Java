@@ -1,0 +1,44 @@
+
+1
+a)10
+b)10
+c)5
+d)2.0
+e)2.5
+
+2
+a)-32
+b) -35
+c) 3
+d) 29
+
+3
+Pide 2 números por teclado,los multiplica y muestra el resultado por pantalla
+Produce error si no meto dos números enteros
+
+4
+Pide 2 números por teclado,los divide y muestra el resultado por pantalla
+
+int a,b;
+float c;
+Scanner teclado = new Scanner(System.in);
+System.out.print("Introduce valor a: ");
+a = teclado.nextInt();
+System.out.print("Introduce valor b: ");
+b = teclado.nextInt();
+c = (float) a / b;
+System.out.println("Resultado: " + c);
+
+Si a es cero, c me da cero. Pero si b es cero, me da error
+
+5
+a)(m+n)/n;
+b)((m+n)/p)/((p-r)/s);
+c)((c*r*t)/100)/((m*m+n*n)/(p+q));
+
+6
+a=-1;
+b=3;
+c=4;
+d=4;
+
